@@ -38,10 +38,13 @@
          <item name="android:textColorHighlight">@color/text_highlight_color</item>
          <item name="actionBarStyle">@style/BugleActionBar</item>
          <item name="apnPreferenceStyle">@style/ApnPreference</item>
+         <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+         <item name="android:windowLightNavigationBar">@bool/windowLightNavigationBar</item>
     </style>
 
-    <style name="BugleTheme.ConversationActivity"
-        parent="@style/BugleTheme.ConversationActivityBase">
+    <style name="BugleTheme.ConversationActivity" parent="@style/BugleTheme.ConversationActivityBase">
+         <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+         <item name="android:windowLightNavigationBar">@bool/windowLightNavigationBar</item>
     </style>
 
     <style name="BugleTheme.ConversationActivityBase" parent="BugleTheme">
