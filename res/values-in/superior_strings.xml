@@ -24,14 +24,14 @@
     <string name="show_emoticons_pref_summary">Tampilkan tombol emoticon di keyboard</string>
     <!-- Audio Library Tab for MMS attachments -->
     <string name="mediapicker_galleryChooserDescription_cm">Pilih gambar atau video dari perangkat ini</string>
-    <string name="mediapicker_audioListChooserDescription">Choose audio files from this device</string>
-    <string name="mediapicker_gallery_image_item_attachment_too_large">Can\'t attach video. Max message size exceeded.</string>
-    <string name="mediapicker_audio_list_title">Choose audio</string>
-    <string name="mediapicker_audio_list_item_selected_content_description">Selected audio</string>
-    <string name="mediapicker_audio_list_item_unselected_content_description">Tap to select</string>
-    <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> selected</string>
+    <string name="mediapicker_audioListChooserDescription">Pilih berkas suara dari perangkat ini</string>
+    <string name="mediapicker_gallery_image_item_attachment_too_large">Tidak dapat melampirkan video, ukuran melebihi batas maksimal.</string>
+    <string name="mediapicker_audio_list_title">Pilih suara</string>
+    <string name="mediapicker_audio_list_item_selected_content_description">Suara terpilih</string>
+    <string name="mediapicker_audio_list_item_unselected_content_description">Tekan untuk memilih</string>
+    <string name="mediapicker_audio_list_title_selection"><xliff:g id="count">%d</xliff:g> terpilih</string>
     <!-- Shortcuts -->
-    <string name="shortcuts_compose_new">New message</string>
+    <string name="shortcuts_compose_new">Pesan baru</string>
     <!-- Mark message as read -->
-    <string name="notification_mark_as_read">Mark as read</string>
+    <string name="notification_mark_as_read">Tandai sebagai terbaca</string>
 </resources>
