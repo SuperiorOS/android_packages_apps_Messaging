@@ -17,14 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Swipe to delete conversation -->
-    <string name="swipe_to_delete_conversation_pref_title">Проведіть для видалення</string>
-    <string name="swipe_to_delete_conversation_pref_summary">Проведіть вправо для видалення бесіди</string>
     <!-- Show emoticons -->
-    <string name="show_emoticons_pref_title">Доступ до смайлів</string>
-    <string name="show_emoticons_pref_summary">Показувати кнопку смайлів на клавіатурі</string>
     <!-- Audio Library Tab for MMS attachments -->
-    <string name="mediapicker_galleryChooserDescription_cm">Вибрати зображення з цього пристрою</string>
-    <string name="mediapicker_audioListChooserDescription">Вибрати аудіо з цього пристрою</string>
     <!-- Shortcuts -->
     <!-- Mark message as read -->
 </resources>
