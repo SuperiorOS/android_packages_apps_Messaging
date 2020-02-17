@@ -49,7 +49,6 @@ import com.android.messaging.datamodel.data.SettingsData.SettingsDataListener;
 import com.android.messaging.datamodel.data.SubscriptionListData;
 import com.android.messaging.datamodel.data.TestDataFactory;
 import com.android.messaging.datamodel.data.VCardContactItemData;
-import com.android.messaging.util.ConnectivityUtil;
 
 public class FakeDataModel extends DataModel {
     private BackgroundWorker mWorker;
@@ -59,7 +58,6 @@ public class FakeDataModel extends DataModel {
     private ContactPickerData mContactPickerData;
     private MediaPickerData mMediaPickerData;
     private PeopleAndOptionsData mPeopleAndOptionsData;
-    private ConnectivityUtil mConnectivityUtil;
     private SyncManager mSyncManager;
     private SettingsData mSettingsData;
     private DraftMessageData mDraftMessageData;
@@ -100,11 +98,6 @@ public class FakeDataModel extends DataModel {
 
     public FakeDataModel withMediaPickerData(final MediaPickerData mediaPickerData) {
         mMediaPickerData = mediaPickerData;
-        return this;
-    }
-
-    public FakeDataModel withConnectivityUtil(final ConnectivityUtil connectivityUtil) {
-        mConnectivityUtil = connectivityUtil;
         return this;
     }
 
@@ -223,11 +216,6 @@ public class FakeDataModel extends DataModel {
     @Override
     public ActionService getActionService() {
         return mActionService;
-    }
-
-    @Override
-    public ConnectivityUtil getConnectivityUtil() {
-        return mConnectivityUtil;
     }
 
     @Override
