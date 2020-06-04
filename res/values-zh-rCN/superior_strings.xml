@@ -16,8 +16,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Swipe to delete conversation -->
+    <string name="swipe_to_delete_conversation_pref_title">滑动以删除</string>
+    <string name="swipe_to_delete_conversation_pref_summary">向右滑动以删除会话</string>
     <!-- Show emoticons -->
+    <string name="show_emoticons_pref_title">显示Emoj表情</string>
+    <string name="show_emoticons_pref_summary">在键盘中显示 Emoji 按键</string>
     <!-- Audio Library Tab for MMS attachments -->
+    <string name="mediapicker_galleryChooserDescription_cm">从设备中选取图片或视频</string>
+    <string name="mediapicker_audioListChooserDescription">从设备中选取音频</string>
+    <string name="mediapicker_gallery_image_item_attachment_too_large">无法附加视频，附件大小超过上限</string>
+    <string name="mediapicker_audio_list_title">选择音频</string>
+    <string name="mediapicker_audio_list_item_selected_content_description">选定的音频</string>
+    <string name="mediapicker_audio_list_item_unselected_content_description">点击以选择</string>
+    <string name="mediapicker_audio_list_title_selection">已选择 <xliff:g id="count">%d</xliff:g> 个附件</string>
     <!-- Mark message as read -->
+    <string name="notification_mark_as_read">标记为已读</string>
     <!-- Notification channel -->
+    <string name="notification_channel_messages_title">消息</string>
 </resources>
