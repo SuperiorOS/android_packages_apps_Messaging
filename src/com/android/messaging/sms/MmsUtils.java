@@ -1180,7 +1180,9 @@ public class MmsUtils {
     public static SmsMessage getSmsMessageFromDeliveryReport(final Intent intent) {
         final byte[] pdu = intent.getByteArrayExtra("pdu");
         final String format = intent.getStringExtra("format");
-        return SmsMessage.createFromPdu(pdu, format);
+        return OsUtil.isAtLeastM()
+                ? SmsMessage.createFromPdu(pdu, format)
+                : SmsMessage.createFromPdu(pdu);
     }
 
     /**
