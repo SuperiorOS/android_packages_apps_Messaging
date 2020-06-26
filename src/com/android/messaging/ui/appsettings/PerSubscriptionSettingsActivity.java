@@ -185,6 +185,10 @@ public class PerSubscriptionSettingsActivity extends BugleActionBarActivity {
                         findPreference(getString(R.string.delivery_reports_pref_key));
                 deliveryReportsPreference.setEnabled(false);
             }
+
+            if (advancedCategory.getPreferenceCount() == 0) {
+                getPreferenceScreen().removePreference(advancedCategory);
+            }
         }
 
         private boolean isCellBroadcastAppLinkEnabled() {
